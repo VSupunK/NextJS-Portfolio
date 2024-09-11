@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "types": ["@react-three/fiber", "three"],
+    "target": "esnext", // Optionally specify target version of ECMAScript
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -12,6 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in imports
     "plugins": [
       {
         "name": "next"
