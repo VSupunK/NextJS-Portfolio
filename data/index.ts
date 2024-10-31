@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -8,17 +10,17 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize user experience and design",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/Coding.jpg",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Passionate about global communication",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -49,7 +51,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a Student Management Dashboard",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,17 +76,17 @@ export const navItems = [
       id: 1,
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      img: "/Project_GIF1.gif",
+      iconLists: ["/re.svg", "/tail.svg"],
+      link: "https://github.com/VSupunK/Travel-and-Tour-Website",
     },
     {
       id: 2,
       title: "Yoom - Video Conferencing App",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      img: "/Project_GIF2.gif",
+      iconLists: ["/re.svg", "/tail.svg", "/git.svg"],
+      link: "https://vsupunk.github.io/Nike-Website/",
     },
     {
       id: 3,
@@ -107,9 +109,10 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "We want to build technology that everybody loves using, and that affects everyone. We want to create beautiful, intuitive services and technologies that are so incredibly useful that people use them twice a day. Like they use a toothbrush. There aren't that many things people use twice a day.",
+      name: "Larry Page",
+      title: "Co-Founder Google",
+      image: "/Larry Page.jpg",
     },
     {
       quote:
@@ -205,13 +208,21 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/VSupunK/"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/link.svg",
+      link: "https://www.linkedin.com/in/supun-kalhara-150529249/"
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/medium.svg",
+      link: "https://medium.com/@vsupunkalhara/"
+    },
+    {
+      id: 4,
+      img: "/youtube.svg",
+      link: "https://www.youtube.com/channel/UCxFhgyEujWl5CXKLGTlXJ0Q"
     },
   ];
