@@ -20,7 +20,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Passionate about global communication",
+      title: "Undergraduate BSc(Hons) in Computing & Information Systems",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
