@@ -17,7 +17,7 @@ function Clients() {
         />
       </div>
       <h1 className="heading pb-5">
-        My <span className="text-purple"> TechStack</span>
+        My <span className="text-purple"> Tech Stack</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center g4 md:gap-10 max-lg:mt-8">
         {companies.map(({ id, img, name }) => (
