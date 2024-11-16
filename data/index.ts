@@ -90,19 +90,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Travel and Tour Website",
+    des: "A travel and tour website with a modern design and smooth animations.",
     img: "/Project_GIF1.gif",
-    iconLists: ["/re.svg", "/tail.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/git.svg"],
     link: "https://github.com/VSupunK/Travel-and-Tour-Website",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "School Management System - Dashboard",
+    des: "A student management dashboard for teachers and students to manage their daily tasks.",
+    img: "/Project_GIF4.gif",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/git.svg"],
+    link: "https://github.com/VSupunK/School-Management-System-Dashboard",
   },
 ];
 
