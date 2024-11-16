@@ -83,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "Nike Website ",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A modern and responsive website for Nike, built using ReactJS.",
     img: "/Project_GIF2.gif",
     iconLists: ["/re.svg", "/tail.svg", "/git.svg"],
     link: "https://vsupunk.github.io/Nike-Website/",
