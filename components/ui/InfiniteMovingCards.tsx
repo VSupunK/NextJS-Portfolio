@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    image: any;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -89,7 +90,7 @@ export const InfiniteMovingCards = ({
           <li
             className="w-[90vw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[100vw]"
             style={{
-              background:'rgb(4,7,29)',
+              background: "rgb(4,7,29)",
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
             }}
@@ -105,8 +106,12 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
-                  <div className="me-3">
-                    <img src="/profile.svg" alt="profile" />
+                  <div className="w-24 h-24 rounded-full overflow-hidden">
+                    <img
+                      src={item.image}
+                      alt="profile"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <span className=" text-sm leading-[1.6] text-white">
                     {item.name}

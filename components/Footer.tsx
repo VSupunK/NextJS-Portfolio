@@ -17,12 +17,12 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
+          Ready to elevate <span className="text-purple">your</span> digital
           presece to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Let's connect and explore how I can help turn your vision into
+          reality. Reach out today!
         </p>
         <a href="mailto:vsupunkalhara@gmail.com">
           <MagicButton
@@ -33,13 +33,17 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">Copyright © 2024 VSK</p>
+        <p className="md:text-base text-sm md:font-normal font-light">
+          Copyright © 2024 VSK
+        </p>
 
-        <div className="flex items-center md:gap-3 gap-6">{socialMedia.map((profile) => (
+        <div className="flex items-center md:gap-3 gap-6">
+          {socialMedia.map((profile) => (
             <a key={profile.id} href={profile.link}>
-            <img src={profile.img} alt={profile.img} width={30} height={30} />
-          </a>
-        ))}</div>
+              <img src={profile.img} alt={profile.img} width={30} height={30} />
+            </a>
+          ))}
+        </div>
       </div>
     </footer>
   );

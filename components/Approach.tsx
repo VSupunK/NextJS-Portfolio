@@ -3,7 +3,7 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvaRevealEffect";
-import { div } from "framer-motion/client";
+// import { div } from "framer-motion/client";
 
 const Approach = () => {
   return (
@@ -13,13 +13,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description="We'll colaborate to map out your
-website's goals, target audience, and key
-functionalities. We'ly discuss things like
-site structure, navigation, and content
-requirements."
+          title="Creative Design"
+          icon={<AceternityIcon order="Approach 1" />}
+          description="I focus on crafting user-friendly and visually appealing designs using modern UI/UX principles to create impactful digital experiences."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -27,16 +23,13 @@ requirements."
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          description="Once we agree on the plan, I cue
-        my lofi playlist and dive into coding. From
-        initial sketches to polished code, I keep you
-        updated every step of the way."
+          title="Fullstack Development"
+          icon={<AceternityIcon order="Approach 2" />}
+          description="With knowledge in frontend and backend technologies, I build seamless and scalable web applications tailored to your needs."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-black"
+            containerClassName="bg-red-800"
             colors={[
               [236, 72, 153],
               [232, 121, 249],
@@ -47,12 +40,9 @@ requirements."
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          description="This is where the magic happens!
-Based on the approved design, I'll translate
-everything into functional code, building your
-website from the ground up."
+          title="Freelance Projects"
+          icon={<AceternityIcon order="Approach 3" />}
+          description="I collaborate with clients globally to deliver high-quality graphic design, video editing, and personalized web solutions."
         >
           <CanvasRevealEffect
             animationSpeed={3}
