@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,7 +15,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "^14.2.15",
+    "next": "^14.2.18",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
