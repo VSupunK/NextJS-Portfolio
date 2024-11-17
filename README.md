@@ -104,7 +104,7 @@ This portfolio is deployed on **Netlify**. To redeploy:
 If you like my portfolio or want to collaborate, feel free to reach out!
 
 - **LinkedIn**: [Supun Kalhara](https://www.linkedin.com/in/supun-kalhara-150529249/)
-- **GitHub**: [@your-username](https://github.com/VSupunK/)
+- **GitHub**: [@VSupunK](https://github.com/VSupunK/)
 - **Email**: vsupunkalhara@gmail.com
 
 ---
