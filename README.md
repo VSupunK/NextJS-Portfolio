@@ -109,4 +109,3 @@ If you like my portfolio or want to collaborate, feel free to reach out!
 
 ---
 
-This `README.md` file provides a professional overview of your project, including technical details, setup instructions, and links to connect with you! Replace placeholders (e.g., `your-username`, `your-repo-name`) with the actual repository details.
